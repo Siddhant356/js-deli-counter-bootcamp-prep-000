@@ -15,7 +15,6 @@ function currentLine(line){
     for(var i=0;i<line.length;i++)
       if(i<line.length-1)
         str+=` ${i+1}
-    return `The line is currently: ${line}`
     
   }
   else
